@@ -94,7 +94,7 @@ body {
   padding: 75px 0 30px;
 }
 
-.menu-btn{
+.menu-btn {
   display: none;
   width: 40px;
   padding: 0;
@@ -103,7 +103,7 @@ body {
   height: 30px;
 }
 
-.menu-btn span{
+.menu-btn span {
   display: block;
   height: 2px;
   background-color: #fff;
@@ -111,8 +111,8 @@ body {
 }
 
 .menu-btn span::after,
-.menu-btn span::before{
-  content: '';
+.menu-btn span::before {
+  content: "";
   width: 40px;
   height: 2px;
   background-color: #fff;
@@ -120,11 +120,11 @@ body {
   left: 0;
 }
 
-.menu-btn span::before{
+.menu-btn span::before {
   top: -10px;
 }
 
-.menu-btn span::after{
+.menu-btn span::after {
   top: 10px;
 }
 
@@ -307,6 +307,10 @@ body {
 
 .how-to__box {
   text-align: center;
+}
+
+.how-to__box-list {
+  display: none;
 }
 
 .how-to__box circle,
@@ -534,70 +538,70 @@ foreignObject {
   right: 75px;
 }
 
-.contacts{
-    background-color: #010203;
-    padding-bottom: 100px;
+.contacts {
+  background-color: #010203;
+  padding-bottom: 100px;
 }
 
-.contacts__inner{
-    display: flex;
-    justify-content: space-between;
+.contacts__inner {
+  display: flex;
+  justify-content: space-between;
 }
 
-.contacts__box{
-    width: 500px;
+.contacts__box {
+  width: 500px;
 }
 
-.contacts__title{
-    padding-bottom: 46px;
+.contacts__title {
+  padding-bottom: 46px;
 }
 
-.contacts__box-text{
-    font-size: 24px;
-    line-height: 29px;
-    margin-bottom: 80px;
+.contacts__box-text {
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 80px;
 }
 
-.contacts__form-input{
-    background-color: #010203;
-    border: none;
-    border-bottom: 1px solid #fff;
-    margin-bottom: 30px;
-    color: #fff;
-    font-family: "sf-pro-display";
-    font-size: 14px;
-    line-height: 17px;
-    padding: 20px 0;
-    width: 100%;
+.contacts__form-input {
+  background-color: #010203;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "sf-pro-display";
+  font-size: 14px;
+  line-height: 17px;
+  padding: 20px 0;
+  width: 100%;
 }
 
-.contacts__form-input::placeholder{
-    color: #fff;
-    font-family: "sf-pro-display";
-    font-size: 14px;
-    line-height: 17px;
+.contacts__form-input::placeholder {
+  color: #fff;
+  font-family: "sf-pro-display";
+  font-size: 14px;
+  line-height: 17px;
 }
 
-.contacts__btn{
-    margin-top: 70px;
-    width: 100%;
+.contacts__btn {
+  margin-top: 70px;
+  width: 100%;
 }
 
-.contacts__guarantees{
-    width: 500px;
+.contacts__guarantees {
+  width: 500px;
 }
 
-.contacts__guarantees-text{
-    font-size: 24px;
-    line-height: 29px;
+.contacts__guarantees-text {
+  font-size: 24px;
+  line-height: 29px;
 }
 
-.contacts__guarantees-img{
-    display: flex;
-    margin-left: auto;
+.contacts__guarantees-img {
+  display: flex;
+  margin-left: auto;
 }
 
-.footer{
+.footer {
   background-image: url(../images/footer-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -605,96 +609,100 @@ foreignObject {
   padding: 100px 0 150px;
 }
 
-.footer__inner{
+.footer__inner {
   display: flex;
   justify-content: flex-end;
 }
 
-.footer__text{
+.footer__text {
   width: 165px;
   margin-right: 50px;
 }
 
-.footer__text p+p{
+.footer__text p + p {
   margin-top: 50px;
 }
 
-.footer__menu{
+.footer__menu {
   list-style: none;
   width: 120px;
   margin-right: 95px;
 }
 
-.footer__links{
+.footer__links {
   list-style: none;
   width: 165px;
 }
 
 .footer__menu-item,
-.footer__links-item{
+.footer__links-item {
   margin-bottom: 20px;
 }
 
 .footer__menu-link,
-.footer__links-link{
+.footer__links-link {
   text-transform: uppercase;
-  transition: color .5s ease-in;
+  transition: color 0.5s ease-in;
 }
 
 .footer__menu-link:hover,
-.footer__links-link:hover{
-  color: #CB0E0E;
+.footer__links-link:hover {
+  color: #cb0e0e;
 }
 
 @media (max-width: 1160px) {
-  .about{
+  .about {
     text-align: center;
   }
 
-  .about__item{
+  .about__item {
     display: block;
   }
 
-  .about__content{
+  .about__content {
     width: 100%;
   }
 
-  .about__content-text{
+  .about__content-text {
     display: block;
   }
 
-  .about__content-text p{
+  .about__content-text p {
     width: 100%;
     margin-bottom: 20px;
   }
 
-  .about__img{
+  .about__img {
     margin-bottom: 50px;
   }
 
-  .about__table{
+  .about__table {
     width: 100%;
   }
 }
 
 @media (max-width: 1024px) {
-  .login{
+  .login {
     margin-right: 0;
+  }
+
+  .to-book__inner {
+    display: block;
   }
 }
 
 @media (max-width: 895px) {
-  .header__top{
+  .header__top {
     padding-top: 30px;
   }
 
-  .menu-btn{
+  .menu-btn {
     display: block;
   }
 
-  .menu__list{
+  .menu__list {
     transform: translateY(-150%);
-    transition: transform .5s ease-in;
+    transition: transform 0.5s ease-in;
     display: block;
     position: absolute;
     top: 0;
@@ -707,98 +715,165 @@ foreignObject {
     text-align: center;
   }
 
-  .menu__list.active{
+  .menu__list.active {
     transform: translateY(0);
   }
 
-  .menu__item{
+  .menu__item {
     padding: 15px 0;
   }
 
-  .menu__link{
+  .menu__link {
     display: block;
   }
 
   .phone,
-  .login{
+  .login {
     position: relative;
     z-index: 20;
   }
 
-  .header__content{
+  .header__content {
     margin: 0 auto;
   }
 
-  .header__description{
+  .header__description {
     justify-content: center;
   }
 
-  .header{
+  .header {
     background-position: center right;
+  }
+
+  .how-to__box svg {
+    display: none;
+  }
+
+  .how-to__box-list {
+    display: block;
+    list-style: none;
+  }
+
+  .how-to__box-item {
+    padding-bottom: 30px;
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 20px;
+    position: relative;
+    border-left: 1px solid #fff;
+  }
+
+  .how-to__box-item:last-child {
+    border-left: none;
+  }
+
+  .how-to__box-item::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
   }
 }
 
 @media (max-width: 620px) {
-
-  .header__content{
+  .header__content {
     text-align: center;
   }
 
-  .header__title{
+  .header__title {
     font-size: 34px;
     line-height: 30px;
   }
 
-  .header__title span{
+  .header__title span {
     font-size: 60px;
   }
 
-  .header__text{
+  .header__text {
     justify-content: center;
     font-size: 18px;
   }
 
-  .header__text p{
+  .header__text p {
     padding: 0 10px;
   }
 
-  .header__btn{
+  .header__btn {
     font-size: 18px;
     line-height: 24px;
     width: 60%;
   }
 
-  .header__description{
+  .header__description {
     display: block;
   }
 
-  .header__description-text{
+  .header__description-text {
     width: 100%;
     text-align: center;
   }
 
-  .header__description-text + .header__description-text{
+  .header__description-text + .header__description-text {
     margin-left: 0;
     margin-top: 20px;
   }
 
-  .title{
+  .title {
     padding: 50px 0;
     font-size: 38px;
     line-height: 38px;
   }
 
-  .about__item{
+  .about__item {
     padding-bottom: 50px;
+  }
+
+  .about__table-tr:first-child {
+    display: none;
+  }
+
+  .about__table-td {
+    display: block;
+    text-align: right;
+  }
+
+  .about__table-td:not(:last-child) {
+    border-bottom: 1px solid #fff;
+  }
+
+  .about__table-td span {
+    display: inline-block;
+  }
+
+  .about__table-td::before {
+    content: attr(aria-label);
+    float: left;
+  }
+
+  .about__table-tr + .about__table-tr {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 28px;
+    line-height: 28px;
   }
 }
 
 @media (max-width: 360px) {
-  .header__top{
+  .header__top {
     flex-wrap: wrap;
   }
 
-  .phone{
+  .phone {
     width: 100%;
     margin-right: auto;
     margin-top: 20px;
@@ -806,23 +881,23 @@ foreignObject {
   }
 
   .menu,
-  .login{
+  .login {
     order: -1;
   }
 
-  .menu__list{
+  .menu__list {
     padding-top: 120px;
   }
 
-  .header__title{
+  .header__title {
     font-size: 28px;
   }
 
-  .header__title span{
+  .header__title span {
     font-size: 32px;
-  } 
+  }
 
-  .header__btn{
+  .header__btn {
     width: 100%;
     font-size: 16px;
   }
